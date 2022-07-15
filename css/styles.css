@@ -58,6 +58,10 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
+main {
+    width: 1110px;
+}
+
 /* Main Menu */
 
 nav li {
@@ -136,8 +140,88 @@ nav li {
     color: var(--praimary-grey-color);
 }
 
+.header-item {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.009em;
+}
 
+/* Breadcrumbs */
 
+.breadcrumbs-list a {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.009em;
+    color: var(--praimary-grey-color);
+}
+
+.breadcrumbs-list .current {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.009em;
+    color: var(--primary-text-color);
+}
+
+/* Product */
+
+.action-btn {
+    width: 118px;
+    height: 30px;
+    left: 195px;
+    top: 227px;
+    background: var(--accent-text-color);
+
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.009em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+.articul {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+    color: var(--praimary-grey-color);
+}
+
+.product-list .previous {
+    opacity: 0.5;
+    transform: rotate(180deg);
+}
+
+.product-list .current {
+    width: 70px;
+    height: 70px;
+    background: #FFFFFF;
+    border: 1px solid var(--accent-text-color);
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+
+.gost {
+    width: 98px;
+    height: 22px;
+    background: var(--accent-text-color);
+    opacity: 0.1;
+    border-radius: 2px;
+
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.009em;
+    color: var(--accent-text-color);
+
+}
 
 
 .social .link {
