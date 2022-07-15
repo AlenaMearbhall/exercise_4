@@ -12,9 +12,10 @@
 </head>
 <body>
     <header>
+
         <!-- Main Menu -->
         <nav>
-            <ul>
+            <ul class="list">
                 <li><a href="#" target="_blank">О нас</a></li>
                 <li><a href="#" target="_blank">Производство</a></li>
                 <li><a href="#" target="_blank">Выгоды для вас</a></li>
@@ -22,32 +23,56 @@
                 <li><a href="#" target="_blank">Контакты</a></li>
             </ul>
         </nav>
-        <!-- Address -->
-        <ul>
-            <li><a href="tel:+74993807890" class="link">+7 (499) 380-78-90</a></li>
-            <li><a href="#" target="_blank" rel="noopener noreferrer" class="link address">Москва</a></li>
-            <li><a href="mailto:info@bastion.pro" class="link">info@bastion.pro</a></li>
+
+        <!-- Contacts -->
+        <ul class="site-contacts list">
+            <li class="contacts-phone"><a href="tel:+74993807890">
+                <img src="./img/header/phone 1.svg" alt="значок телефон" width="15">
+                +7 (499) 380-78-90
+                </a>
+            </li>
+            <li class="contacts-address"><a href="#" target="_blank" rel="noopener noreferrer" class="link address">
+                <img src="./img/header/Combined Shape.svg" alt="значок точка" width="15">
+                Москва
+                </a>
+            </li>
+            <li class="contacts-mail"><a href="mailto:info@bastion.pro" class="link">
+                <img src="./img/header/mail.svg" alt="значок конверт" width="15">
+                info@bastion.pro
+                </a>
+            </li>
         </ul>
+
         <!-- Logo and Search -->
         <section>
             <a href="./index.html" target="_top" class="logo link">
                 <img src="./img/header/header__logo 1.png" alt="логотип компании" width="82">
             </a>
-            <p>Производитель металлических изделий №1</p>
-            <button type="button" class="catalog-btn"><svg width="20" viewBox="0 0 28 28" fill="none" href="./img/header/all-application.svg"></svg>Каталог</button>
+            <p class="company-description">Производитель металлических изделий №1</p>
+
+            <button type="button" class="catalog-btn">
+                <img src="./img/header/all-application.svg" alt="значок звездочка" width="20">
+                Каталог
+            </button>
+            
             <form action="#" method="get" enctype="multipart/form-data">
-                <input type="text" name="search" placeholder="Поиск по названию...">
+                <img src="./img/header/Vector (Stroke).svg" alt="поиск" width="20">
+                <input type="text" name="search" placeholder="Поиск по названию..." class="search-area">
                 <button type="submit"><img src="./img/header/corner-down-right.svg" alt="поиск" width="20"></button>
             </form>
+
             <div>
                 <img src="./img/header/star.svg" alt="значок звездочка" width="20">
                 <p>Избранное</p>
             </div>
+
             <div>
                 <img src="./img/header/Union.svg" alt="значок корзина" width="20">
                 <p>Корзина</p>
             </div>
+
         </section>
+
         <!-- Breadcrumbs -->
         <section>
             <ul>

@@ -1,3 +1,11 @@
+:root {
+    --primary-text-color: #000000;
+    --accent-text-color: #C93E33;
+    --praimary-grey-color: #B3B3B3;
+    --primary-white-color: #fff;
+
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -39,7 +47,99 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
+a {
+    color: var(--primary-text-color);
+}
+
+body {
+    color: var(--primary-text-color);
+    width: 1440px;
+    background: #F2F2F2;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Main Menu */
+
+nav li {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.009em;
+}
+
+/* Contacts */
+
+.contacts-phone {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+.contacts-address a {
+    color: var(--accent-text-color);
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.009em;
+}
+
+.contacts-mail a {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.008em;
+    color: #333333;
+}
+
+/* Logo and Search */
+
+.company-description {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.009em;
+}
+
+.catalog-btn {
+    width: 145px;
+    height: 42px;
+    left: 377px;
+    top: 77px;
+    background: var(--accent-text-color);
+    border-radius: 4px;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+    color: var(--primary-white-color);
+}
+
+.search-area {
+    width: 546px;
+    height: 42px;
+    left: 542px;
+    top: 77px;
+
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+
+
+}
+
+.search-area::placeholder {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+
+    color: var(--praimary-grey-color);
+}
+
+
+
+
 
 .social .link {
-    color: #fff;
+    color: red;
 }
