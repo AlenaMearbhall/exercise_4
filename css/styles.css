@@ -35,7 +35,7 @@ html,body {
     -webkit-text-size-adjust: 100%;
 }
 
-input,button,textarea {font-family: inherit;}
+input,button,textarea,address {font-family: inherit;}
 
 input::-ms-clear{display: none;}
 button {cursor: pointer;}
@@ -50,6 +50,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 a {
     color: var(--primary-text-color);
 }
+
+address {font-style: normal;}
 
 body {
     color: var(--primary-text-color);
@@ -381,9 +383,23 @@ nav li {
 /* Footer */
 
 footer {
-    background: #1a1d24;
+    background: #222628;
+    color: var(--primary-white-color);
+}
+
+footer ul li a, p a {
+    color: var(--primary-white-color);
+}
+
+footer .phone {
+    font-weight: 700;
+}
+
+footer .mail {
+    border-bottom: 1px dashed;
 }
 
 .social .link {
-    color: red;
+    color: var(--primary-white-color);
+
 }
