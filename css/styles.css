@@ -403,3 +403,25 @@ footer .mail {
     color: var(--primary-white-color);
 
 }
+
+/* Flex */
+
+.block {}
+
+.block__row {
+    border: 20px solid #C93E33;
+    margin: 0px 0px 20px 0px;
+}
+
+.block__column {
+    border: 20px solid purple;
+}
+
+.block__item {
+    background-color: palegreen;
+    padding: 50px;
+}
+
+.block__list {
+    display: flex;
+}
