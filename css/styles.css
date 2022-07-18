@@ -443,7 +443,24 @@ footer .mail {
 .main-menu-row, .logo-search-row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+.logo-search-column {
+    border: 1px solid purple;
+
+}
+
+.logo-search-desription {
+    margin-right: -15px;
+}
+
+.logo-search-favorites,
+.logo-search-busket {
+    text-align: center;
+}
+
+
 
 .main-menu-menu {
 
@@ -486,5 +503,6 @@ nav ul, .site-contacts, .logo-search-row {
 .logo-search-desription {
     width: 112px;
 }
+
 
 
