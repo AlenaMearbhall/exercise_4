@@ -382,7 +382,7 @@ nav li {
 
 /* Footer */
 
-footer {
+.footer {
     background: #222628;
     color: var(--primary-white-color);
 }
@@ -406,22 +406,47 @@ footer .mail {
 
 /* Flex */
 
-.block {}
-
-.block__row {
-    border: 20px solid #C93E33;
-    margin: 0px 0px 20px 0px;
-}
-
-.block__column {
-    border: 20px solid purple;
-}
-
-.block__item {
-    background-color: palegreen;
-    padding: 50px;
-}
-
-.block__list {
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
     display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+.header {
+
+}
+
+.main-menu {
+    padding: 14px 0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0px auto;
+}
+
+.main-menu-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu-menu {
+
+
+}
+
+.main-menu-contacts {
+
+}
+
+.footer__row {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
 }
