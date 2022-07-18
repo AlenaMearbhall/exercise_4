@@ -63,7 +63,6 @@ body {
 
 main {
     width: 1110px;
-    background: var(--primary-white-color);
 }
 
 /* Main Menu */
@@ -180,6 +179,11 @@ nav li {
 }
 
 /* Products */
+
+.products-section {
+    background: var(--primary-white-color);
+}
+
 .gosts-item {
     width: 94px;
     height: 25px;
@@ -301,6 +305,71 @@ nav li {
     line-height: 18px;
     letter-spacing: 0.009em;
 }
+
+/* Pagination */
+.pagination-section h3 {
+    font-size: 17px;
+    line-height: 20px;
+    color: var(--primary-text-color);
+}
+
+.counter .item {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.009em;
+    color: var(--primary-text-color);
+}
+
+.counter .item.current {
+    color: var(--accent-text-color);
+    background: var(--primary-white-color);
+    padding: 5px 12px;
+    border-radius: 90px;
+}
+
+.pagination .item {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.009em;
+    color: var(--praimary-grey-color);
+}
+
+.pagination .item.current {
+    color: var(--primary-text-color);
+}
+
+.pagination-section .more {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.009em;
+    color: var(--accent-text-color);
+}
+
+/* Company Description */
+
+.company-description-section h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.009em;
+
+}
+
+.company-description-section p {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+}
+
+.company-description-section .description {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+    color: var(--accent-text-color);
+}
+
 
 /* Order Form */
 
