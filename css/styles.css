@@ -76,11 +76,13 @@ nav li {
 
 /* Contacts */
 
-.contacts-phone {
+.contacts-phone a {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 1px;
+    background: url('../img/header/phone 1.svg') left no-repeat;
+    padding: 0px 0px 0px 5px;
 }
 
 .contacts-address a {
@@ -88,6 +90,8 @@ nav li {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.009em;
+    background: url('../img/header/Combined Shape.svg')left no-repeat;
+    padding: 0px 0px 0px 5px;
 }
 
 .contacts-mail a {
@@ -96,6 +100,8 @@ nav li {
     line-height: 14px;
     letter-spacing: 0.008em;
     color: #333333;
+    background: url('../img/header/mail.svg') left no-repeat;
+    padding: 0px 0px 0px 5px;
 }
 
 /* Logo and Search */
@@ -119,6 +125,10 @@ nav li {
     line-height: 18px;
     letter-spacing: 0.009em;
     color: var(--primary-white-color);
+}
+
+.catalog-btn img {
+    margin-right: 15px;
 }
 
 .search-area {
@@ -168,191 +178,11 @@ nav li {
     color: var(--primary-text-color);
 }
 
-/* Product */
-
-.action-btn {
-    width: 118px;
-    height: 30px;
-    left: 195px;
-    top: 227px;
-    background: var(--accent-text-color);
-
-    font-size: 15px;
-    line-height: 18px;
+/* Products */
+.products-cards .card {
+    border: 1px solid var(--praimary-grey-color);
+    width: 280px;
     text-align: center;
-    letter-spacing: 0.009em;
-    text-transform: uppercase;
-    color: var(--primary-white-color);
-}
-
-.articul {
-    font-size: 15px;
-    line-height: 18px;
-    letter-spacing: 0.009em;
-    color: var(--praimary-grey-color);
-}
-
-.product-list .previous {
-    opacity: 0.5;
-    transform: rotate(180deg);
-}
-
-.product-list .current {
-    width: 70px;
-    height: 70px;
-    background: #FFFFFF;
-    border: 1px solid var(--accent-text-color);
-}
-
-.product-list .next {
-    width: 14px;
-    height: 14px;
-}
-
-.section-title {
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 36px;
-    letter-spacing: 1px;
-}
-
-.gost {
-    font-size: 12px;
-    line-height: 14px;
-    text-align: center;
-    letter-spacing: 0.009em;
-    color:var(--accent-text-color);
-
-    width: 98px;
-    height: 22px;
-    background: #f9eceb;
-    border-radius: 2px;
-
-
-
-}
-
-.price-title {
-    font-size: 12px;
-    line-height: 14px;
-    color: var(--praimary-grey-color);
-}
-
-.price .current {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 1px;
-    color: var(--accent-text-color);
-}
-
-.price .previous {
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 1px;
-    text-decoration-line: line-through;
-    color: var(--praimary-grey-color);
-}
-
-.product-counter .item {
-    font-size: 15px;
-    line-height: 18px;
-    letter-spacing: 0.009em;
-    color: var(--primary-text-color);
-
-    width: 108px;
-    height: 35px;
-    background: #FFFFFF;
-    border: 1px solid #E6E6E6;
-    border-radius: 2px;
-}
-
-.busket-btn {
-    width: 240px;
-    height: 50px;
-    background: var(--accent-text-color);
-    border-radius: 4px;
-
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0.009em;
-    color: var(--primary-white-color);
-}
-
-.product-info .description {
-    font-size: 15px;
-    line-height: 150%;
-    letter-spacing: 0.009em;
-}
-
-.product-info .more {
-    color: var(--accent-text-color);
-}
-
-/* Product Description */
-
-.title {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 1px;
-}
-
-.product-description .item {
-    font-size: 15px;
-    line-height: 18px;
-    letter-spacing: 0.009em;
-}
-
-.product-description .left, .points {
-    color: var(--praimary-grey-color);
-}
-
-.small {
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 150%;
-    letter-spacing: 0.009em;
-    color: var(--accent-text-color);
-}
-
-/* Similar Products */
-
-.product-list .number {
-    font-size: 15px;
-    line-height: 150%;
-    letter-spacing: 0.009em;
-    color: var(--praimary-grey-color);
-}
-
-.product-list .number .similar-current {
-    color: var(--primary-text-color);
-}
-
-.gost-small {
-    width: 83px;
-    height: 20px;
-    background: #f9eceb;
-
-    font-size: 10px;
-    line-height: 12px;
-    text-align: center;
-    letter-spacing: 0.009em;
-    color: var(--accent-text-color);
-}
-
-.similar-products .description {
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0.009em;
-}
-
-.similar-products .price {
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    letter-spacing: 0.009em;
 }
 
 /* Order Form */
@@ -382,7 +212,7 @@ nav li {
 
 /* Footer */
 
-footer {
+.footer {
     background: #222628;
     color: var(--primary-white-color);
 }
@@ -403,3 +233,96 @@ footer .mail {
     color: var(--primary-white-color);
 
 }
+
+/* Flex */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+.header {
+
+}
+
+.main-menu {
+    padding: 14px 0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0px auto;
+}
+
+.main-menu-row, .logo-search-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-search-column {
+    border: 1px solid purple;
+
+}
+
+.logo-search-desription {
+    margin-right: -15px;
+}
+
+.logo-search-favorites,
+.logo-search-busket {
+    text-align: center;
+}
+
+
+
+.main-menu-menu {
+
+
+}
+
+.main-menu-contacts {
+
+}
+
+nav a, .main-menu-contacts a {
+    padding: 10px 17px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul, .site-contacts, .logo-search-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__row {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-list .favorites {
+    background: url('../img/header/star.svg') left no-repeat;
+
+}
+
+.header-list .basket {
+    background: url('../img/header/shopping.svg') left no-repeat;
+
+}
+
+.logo-search-desription {
+    width: 112px;
+}
+
+
+

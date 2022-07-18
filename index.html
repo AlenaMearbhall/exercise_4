@@ -11,78 +11,121 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <div class="wrapper">
 
-        <!-- Main Menu -->
-        <nav>
-            <ul class="list">
-                <li><a href="#" target="_blank">О нас</a></li>
-                <li><a href="#" target="_blank">Производство</a></li>
-                <li><a href="#" target="_blank">Выгоды для вас</a></li>
-                <li><a href="#" target="_blank">Гарантии</a></li>
-                <li><a href="#" target="_blank">Контакты</a></li>
-            </ul>
-        </nav>
-
-        <!-- Contacts -->
-        <ul class="site-contacts list">
-            <li class="contacts-phone"><a href="tel:+74993807890">
-                <img src="./img/header/phone 1.svg" alt="значок телефон" width="15">
-                +7 (499) 380-78-90
-                </a>
-            </li>
-            <li class="contacts-address"><a href="#" target="_blank" rel="noopener noreferrer" class="link address">
-                <img src="./img/header/Combined Shape.svg" alt="значок точка" width="15">
-                Москва
-                </a>
-            </li>
-            <li class="contacts-mail"><a href="mailto:info@bastion.pro" class="link">
-                <img src="./img/header/mail.svg" alt="значок конверт" width="15">
-                info@bastion.pro
-                </a>
-            </li>
-        </ul>
-
-        <!-- Logo and Search -->
-        <section>
-            <a href="./index.html" target="_top" class="logo link">
-                <img src="./img/header/header__logo 1.png" alt="логотип компании" width="82">
-            </a>
-            <p class="company-description">Производитель металлических изделий №1</p>
-
-            <button type="button" class="catalog-btn">
-                <img src="./img/header/all-application.svg" alt="значок звездочка" width="20">
-                Каталог
-            </button>
-            
-            <form action="#" method="get" enctype="multipart/form-data">
-                <img src="./img/header/Vector (Stroke).svg" alt="поиск" width="20">
-                <input type="text" name="search" placeholder="Поиск по названию..." class="search-area">
-                <button type="submit"><img src="./img/header/corner-down-right.svg" alt="поиск" width="20"></button>
-            </form>
-
-            <div>
-                <img src="./img/header/star.svg" alt="значок звездочка" width="20">
-                <p class="header-item">Избранное</p>
+        <!-- Header -->
+        <header class="header">
+            <div class="main-menu">
+                <div class="container">
+                    <div class="main-menu-row">
+                        <!-- Main Menu -->
+                        <div class="main-menu-menu">
+                            <nav>
+                                <ul class="list">
+                                    <li><a href="#" target="_blank">О нас</a></li>
+                                    <li><a href="#" target="_blank">Производство</a></li>
+                                    <li><a href="#" target="_blank">Выгоды для вас</a></li>
+                                    <li><a href="#" target="_blank">Гарантии</a></li>
+                                    <li><a href="#" target="_blank">Контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    
+                        <!-- Contacts -->
+                        <div class="main-menu-contacts">
+                            <ul class="site-contacts list">
+                                <li class="contacts-phone"><a href="tel:+74993807890">
+                                        +7 (499) 380-78-90
+                                    </a>
+                                </li>
+                                <li class="contacts-address"><a href="#" target="_blank" rel="noopener noreferrer" class="link address">
+                                        Москва
+                                    </a>
+                                </li>
+                                <li class="contacts-mail"><a href="mailto:info@bastion.pro" class="link">
+                                        info@bastion.pro
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+        
+            <!-- Logo and Search -->
+            <section class="logo-search-section">
+                <div class="container">
+                    <div class="logo-search-row">
+                        <div class="logo-search-column">
+                            <div class="logo-search-logo">
+                                <a href="./index.html" target="_top" class="logo link">
+                                    <img src="./img/header/header__logo 1.png" alt="логотип компании" width="82">
+                                </a>
+                            </div>
+                        </div>
 
-            <div>
-                <img src="./img/header/Union.svg" alt="значок корзина" width="20">
-                <p class="header-item">Корзина</p>
-            </div>
+                        <div class="logo-search-column">
+                            <div class="logo-search-desription">
+                                <p class="company-description">Производитель металлических изделий №1</p>
+                            </div>
+                        </div>
 
-        </section>
+                        <div class="logo-search-column">
+                            <div class="logo-search-button">
+                                <button type="button" class="catalog-btn">
+                                    <img src="./img/header/all-application.svg" alt="значок звездочка" width="20">
+                                    Каталог
+                                </button>
+                            </div>
+                        </div>
 
-        <!-- Breadcrumbs -->
-        <section>
-            <ul class="list breadcrumbs-list">
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Интернет-магазин</a></li>
-                <li><a href="#" class="current">Опоры трубопроводов</a></li>
-            </ul>
-        </section>
-    </header>
+                        <div class="logo-search-column">
+                            <div class="logo-search-search">
+                                <form action="#" method="get" enctype="multipart/form-data">
+                                    <img src="./img/header/Vector (Stroke).svg" alt="поиск" width="20">
+                                    <input type="text" name="search" placeholder="Поиск по названию..." class="search-area">
+                                    <button type="submit"><img src="./img/header/corner-down-right.svg" alt="поиск" width="20"></button>
+                                </form>
+                            </div>
+                        </div>
 
+                        <div class="logo-search-column">
+                            <div class="logo-search-favorites">
+                                <img src="./img/header/star.svg" alt="значок звездочка" width="20">
+                                <p class="header-item">Избранное</p>
+                            </div>
+                        </div>
+                        
+                        <div class="logo-search-column">
+                            <div class="logo-search-busket">
+                                <img src="./img/header/Union.svg" alt="значок корзина" width="20">
+                                <p class="header-item">Корзина</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        
+            <!-- Breadcrumbs -->
+            <section>
+                <ul class="list breadcrumbs-list">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Интернет-магазин</a></li>
+                    <li><a href="#" class="current">Опоры трубопроводов</a></li>
+                </ul>
+            </section>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <section class="filtres-ection">
+            </section>
+
+            <section class="filtres-bar">
+            </section>
+
+<<<<<<< HEAD
     <!-- Main Content -->
     <main class="content">
 
@@ -251,54 +294,163 @@
             <a href="#" class="description more">Скрыть описание
                 <img src="./img/main/chevron-down 7.svg" alt="стрелочка вниз" width="10"></a>
         </section>
+=======
+            <!-- Products -->
+            <section class="products">
+                <ul class="gosts list">
+                    <li><button type="button" class="gosts-item current">ГОСТ 14911-82</button></li>
+                    <li><button type="button" class="gosts-item">ОСТ 36-146-88</button></li>
+                    <li><button type="button" class="gosts-item">НТС 65-06</button></li>
+                    <li><button type="button" class="gosts-item">ОСТ 36-146-88</button></li>
+                    <li><button type="button" class="gosts-item">НТС 65-06</button></li>
+                </ul>
 
-        <!-- Order Form -->
-        <section class="order-form">
-            <form action="#" method="post" enctype="multipart/form-data">
-                <input type="text" name="username" placeholder="Ваше имя" class="form-input">
-                <input type="tel" name="phonenumber" placeholder="Ваш телефон" class="form-input">
-                <button type="submit" class="busket-btn">Заказать звонок</button>
-            </form>
-            <p class="small grey">Нажимая на кнопку вы соглашаетесь с <a href="#" target="_blank" class="bold">политикой конфиденциальности.</a></p>
-        </section>
-    </main>
+                <ul class="products-cards">
 
-    <footer>
-        <a href="./index.html" target="_top" class="logo link">
-            <img src="./img/footer__logo 1.png" alt="логотип компании" width="82">
-        </a>
-        <ul>
-            <li>
-                <a href="#" target="_blank">Металлоконструкции</a>
-            </li>
-            <li>
-                <a href="#" target="_blank">Порошковая покраска</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="#" target="_blank">Фасаднцые конструкции</a>
-            </li>
-            <li>
-                <a href="#" target="_blank">Светопрозрачные конструкции</a>
-            </li>
-        </ul>
-        <address>
-            <ul>
-                <li><a href="tel:+74993807890" class="link phone">+7 (499) 380-78-90</a></li>
-                <li><a href="mailto:info@bastion.pro" class="link mail">info@bastion.pro</a></li>
-            </ul>
-        </address>
-        <p>&copy 2020 Все права защищены | <a href="#" target="_blank">Политика конфиденциальности</a></p>
-        <ul class="social">
-            <li><a href="#" target="_blank" class="link fa-brands fa-viber"></a></li>
-            <li><a href="#" target="_blank" class="link fa-brands fa-telegram"></a></li>
-            <li><a href="#" target="_blank" class="link fa-brands fa-vk"></a></li>
-            <li><a href="#" target="_blank" class="link fa-brands fa-instagram-square"></a></li>
-            <li><a href="#" target="_blank" class="link fa-brands fa-facebook-f"></a></li>
-        </ul>
-    </footer>
+<!-- 1 -->
+                    <li class="card">
+                        <ul class="filtres-items">
+                            <li><button type="button" class="item">хит</button></li>
+                            <li><button type="button" class="item">скидка</button></li>
+                            <li><button type="button" class="item">акция</button></li>
+                        </ul>
+                        <img src="./img/products/1m-(1) 1.png" alt="миниатюра продукта" width="179">
+                        <p class="gost-small current">ГОСТ 14911-82</p>
+                        <h3 class="description">Опора тавровая хомутовая ТХ</h3>
+                        <p class="price">849.9 руб.</p>
+                    </li>
+<!-- 2 -->
+                    <li class="card">
+                        <ul class="filtres-items">
+                            <li><button type="button" class="item">хит</button></li>
+                            <li><button type="button" class="item">скидка</button></li>
+                            <li><button type="button" class="item">акция</button></li>
+                        </ul>
+                        <img src="./img/products/1m-(1) 1.png" alt="миниатюра продукта" width="179">
+                        <p class="gost-small current">ГОСТ 14911-82</p>
+                        <h3 class="description">Опора тавровая хомутовая ТХ</h3>
+                        <p class="price">849.9 руб.</p>
+                    </li>
+<!-- 3 -->
+                    <li class="card">
+                        <ul class="filtres-items">
+                            <li><button type="button" class="item">хит</button></li>
+                            <li><button type="button" class="item">скидка</button></li>
+                            <li><button type="button" class="item">акция</button></li>
+                        </ul>
+                        <img src="./img/products/1m-(1) 1.png" alt="миниатюра продукта" width="179">
+                        <p class="gost-small current">ГОСТ 14911-82</p>
+                        <h3 class="description">Опора тавровая хомутовая ТХ</h3>
+                        <p class="price">849.9 руб.</p>
+                    </li>
+<!-- 4 -->
+                    <li class="card">
+                        <img src="./img/products/1m-(1) 1.png" alt="миниатюра продукта" width="179">
+                        <p class="gost-small current">ГОСТ 14911-82</p>
+                        <h3 class="description">Опора тавровая хомутовая ТХ</h3>
+                        <p class="price">849.9 руб.</p>
+                    </li>
+<!-- 5 current -->
+                    <li class="card current">
+                        <ul class="filtres-items">
+                            <li><button type="button" class="item">хит</button></li>
+                            <li><button type="button" class="item">скидка</button></li>
+                            <li><button type="button" class="item">акция</button></li>
+                        </ul>
+                        <img src="./img/products/star.svg" alt="звездочка" width="13">
+                        <p>В избранное</p>
+                        <img src="./img/products/1m-(1) 1.png" alt="миниатюра продукта" width="179">
+                        <p class="gost-small current">ГОСТ 14911-82</p>
+                        <h3 class="description">Опора корпусная приварная КП</h3>
+                        <p class="price">849.9 руб.</p>
+                        <ul class="product-counter">
+                            <li><a href="#" class="item plus">+</a></li>
+                            <li><a href="#" class="item number">3</a></li>
+                            <li><a href="#" class="item minus">-</a></li>
+                        </ul>
+                        <button type="button" class="busket-btn">
+                            <img src="./img/main/shopping-cart.svg" alt="значок корзины" width="18">
+                            В корзину
+                        </button>
+                        <button type="button" class="busket-btn">
+                            Подробнее
+                        </button>
+                    </li>
+<!-- 6 -->
+                    <li class="card">
+                        <img src="./img/products/1m-(1) 1.png" alt="миниатюра продукта" width="179">
+                        <p class="gost-small current">ГОСТ 14911-82</p>
+                        <h3 class="description">Опора тавровая хомутовая ТХ</h3>
+                        <p class="price">849.9 руб.</p>
+                    </li>
+<!-- 7 -->
+                    <li class="card">
+                        <img src="./img/products/1m-(1) 1.png" alt="миниатюра продукта" width="179">
+                        <p class="gost-small current">ГОСТ 14911-82</p>
+                        <h3 class="description">Опора тавровая хомутовая ТХ</h3>
+                        <p class="price">849.9 руб.</p>
+                    </li>
+<!-- 8 -->
+                    <li class="card">
+                        <img src="./img/products/1m-(1) 1.png" alt="миниатюра продукта" width="179">
+                        <p class="gost-small current">ГОСТ 14911-82</p>
+                        <h3 class="description">Опора тавровая хомутовая ТХ</h3>
+                        <p class="price">849.9 руб.</p>
+                    </li>
+<!-- 9 -->
+                    <li class="card">
+                        <img src="./img/products/1m-(1) 1.png" alt="миниатюра продукта" width="179">
+                        <p class="gost-small current">ГОСТ 14911-82</p>
+                        <h3 class="description">Опора тавровая хомутовая ТХ</h3>
+                        <p class="price">849.9 руб.</p>
+                    </li>
+>>>>>>> f78ae2a475d032ca4a8b790be1ca22c9d4009806
 
+                </ul>
+            </section>
+
+
+        </main>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__row">
+                <a href="./index.html" target="_top" class="logo link">
+                    <img src="./img/footer__logo 1.png" alt="логотип компании" width="82">
+                </a>
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">Металлоконструкции</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">Порошковая покраска</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">Фасаднцые конструкции</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">Светопрозрачные конструкции</a>
+                    </li>
+                </ul>
+                <address>
+                    <ul>
+                        <li><a href="tel:+74993807890" class="link phone">+7 (499) 380-78-90</a></li>
+                        <li><a href="mailto:info@bastion.pro" class="link mail">info@bastion.pro</a></li>
+                    </ul>
+                </address>
+                <p>&copy 2020 Все права защищены | <a href="#" target="_blank">Политика конфиденциальности</a></p>
+                <ul class="social">
+                    <li><a href="#" target="_blank" class="link fa-brands fa-viber"></a></li>
+                    <li><a href="#" target="_blank" class="link fa-brands fa-telegram"></a></li>
+                    <li><a href="#" target="_blank" class="link fa-brands fa-vk"></a></li>
+                    <li><a href="#" target="_blank" class="link fa-brands fa-instagram-square"></a></li>
+                    <li><a href="#" target="_blank" class="link fa-brands fa-facebook-f"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
     <script src="https://kit.fontawesome.com/8616bbc593.js" crossorigin="anonymous"></script>
 </body>
 </html>
