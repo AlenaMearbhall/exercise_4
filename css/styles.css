@@ -2,6 +2,7 @@
     --primary-text-color: #000000;
     --accent-text-color: #C93E33;
     --praimary-grey-color: #B3B3B3;
+    --praimary-bright-grey-color: #F9F9F9;
     --primary-white-color: #fff;
 
 }
@@ -179,10 +180,126 @@ nav li {
 }
 
 /* Products */
+.gosts-item {
+    width: 94px;
+    height: 25px;
+    background: var(--praimary-bright-grey-color);
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.009em;
+    color: var(--primary-text-color);
+}
+
+.gosts .current {
+    background: var(--accent-text-color);
+    color: var(--primary-white-color);
+}
+
+/* Products Cards */
 .products-cards .card {
     border: 1px solid var(--praimary-grey-color);
     width: 280px;
     text-align: center;
+}
+
+.filtres-items .item {
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        letter-spacing: 0.009em;
+        text-transform: uppercase;
+        color: var(--primary-white-color);
+        padding: 5px 20px;
+}
+
+.item.round {
+    border-radius: 50px;
+}
+
+.item.round.hit {
+    background: #FD7272;
+}
+
+.item.round.discount {
+    background: #E67E22;
+}
+
+.item.round.action {
+    background: #27AE60;
+}
+
+.item.square {
+    background: var(--accent-text-color);
+}
+
+.item.opacity {
+    opacity: 0.7;
+}
+
+.item.opacity.hit {
+    background: #FD7272;
+}
+
+.item.opacity.discount {
+    background: #E67E22;
+}
+
+.item.opacity.action {
+    background: #27AE60;
+}
+
+.to-favorite {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    letter-spacing: 0.009em;
+    color: var(--praimary-grey-color);
+}
+
+.busket-btn {
+    width: 240px;
+    height: 42px;
+    background: var(--accent-text-color);
+    border-radius: 4px;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+    color: var(--primary-white-color);
+}
+
+.busket-btn.more {
+    background: var(--praimary-grey-color);
+    color: var(--primary-text-color);
+}
+
+
+.gost-small {
+    width: 83px;
+    height: 20px;
+    background: #f9eceb;
+
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.009em;
+    color: var(--accent-text-color);
+}
+
+.card .description {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.009em;
+}
+
+.card .price {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
 }
 
 /* Order Form */
