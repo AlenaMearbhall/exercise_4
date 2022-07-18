@@ -76,11 +76,13 @@ nav li {
 
 /* Contacts */
 
-.contacts-phone {
+.contacts-phone a {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 1px;
+    background: url('../img/header/phone 1.svg') left no-repeat;
+    padding: 0px 0px 0px 5px;
 }
 
 .contacts-address a {
@@ -88,6 +90,8 @@ nav li {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.009em;
+    background: url('../img/header/Combined Shape.svg')left no-repeat;
+    padding: 0px 0px 0px 5px;
 }
 
 .contacts-mail a {
@@ -96,6 +100,8 @@ nav li {
     line-height: 14px;
     letter-spacing: 0.008em;
     color: #333333;
+    background: url('../img/header/mail.svg') left no-repeat;
+    padding: 0px 0px 0px 5px;
 }
 
 /* Logo and Search */
@@ -119,6 +125,10 @@ nav li {
     line-height: 18px;
     letter-spacing: 0.009em;
     color: var(--primary-white-color);
+}
+
+.catalog-btn img {
+    margin-right: 15px;
 }
 
 .search-area {
@@ -430,7 +440,7 @@ footer .mail {
     margin: 0px auto;
 }
 
-.main-menu-row {
+.main-menu-row, .logo-search-row {
     display: flex;
     justify-content: space-between;
 }
@@ -444,9 +454,37 @@ footer .mail {
 
 }
 
+nav a, .main-menu-contacts a {
+    padding: 10px 17px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul, .site-contacts, .logo-search-row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer__row {
     display: flex;
     height: 250px;
     justify-content: center;
     align-items: center;
 }
+
+.header-list .favorites {
+    background: url('../img/header/star.svg') left no-repeat;
+
+}
+
+.header-list .basket {
+    background: url('../img/header/shopping.svg') left no-repeat;
+
+}
+
+.logo-search-desription {
+    width: 112px;
+}
+
+
