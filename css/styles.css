@@ -293,7 +293,7 @@ nav li {
     color: var(--accent-text-color);
 }
 
-.card .description {
+.card .description, .info .description {
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.009em;
@@ -377,14 +377,23 @@ nav li {
     border-bottom: 1px solid var(--praimary-grey-color);
 }
 
+.form-input.current::placeholder {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+    font-weight: 400;
+    color: var(--primary-text-color);
+}
+
 .form-input::placeholder {
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
     letter-spacing: 0.009em;
-
     color: var(--praimary-grey-color);
 }
+
+
 
 .small.grey{
     color: var(--praimary-grey-color);
@@ -511,4 +520,165 @@ nav ul, .site-contacts, .logo-search-row {
 }
 
 
+/* Busket */
 
+.busket.container {
+    display: flex;
+    justify-content: baseline;
+}
+
+.busket-section-row, .order-section-row {
+    background: var(--primary-white-color);
+}
+
+.busket-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+
+.alert-message {
+    display: flex;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.009em;
+    color: var(--praimary-grey-color);
+    padding: 20px;
+}
+
+.alert-message img {
+    margin: 0px 11px 0px 0px;
+}
+
+.info .price {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+    color: var(--praimary-grey-color);
+}
+
+.product-counter {
+    display: flex;
+    width: 108px;
+    border: 1px solid #E6E6E6;
+    border-radius: 2px;
+}
+
+.product-counter .item {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+    margin: 9px 10px 9px 10px;
+}
+
+.product-counter .number {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 9px 15px;
+    border: 1px solid #E6E6E6;
+}
+
+.price-sum {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+}
+
+.busket-pict {
+    opacity: 0.5;
+}
+
+.clear-busket {
+    display: flex;
+}
+
+.clear-busket p {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+    color: var(--accent-text-color);
+}
+
+.clear-busket img {
+    margin: 0px 13px 0px 0px;
+}
+
+.busket-section-row  {
+    border: 1px solid #E6E6E6;
+}
+
+.order-section-row {
+    width: 280px;
+    border: solid #E6E6E6;
+    border-width: 1px 1px 1px 0px;
+    padding: 18px 3px 0px 20px;
+}
+
+.order-section-row h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.order-section-row h3 {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+    color: var(--praimary-grey-color);
+}
+
+.order-section-row label {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.009em;
+    color: var(--praimary-grey-color);
+}
+
+.total .item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.total .item.sum {
+    color: var(--accent-text-color);
+}
+
+.order-btn {
+    width: 240px;
+    height: 42px;
+    background: var(--accent-text-color);
+    border-radius: 4px;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+    color: var(--primary-white-color);
+
+    text-align: center;
+}
+
+.order-btn img {
+}
+
+.comm {
+    width: 240px;
+    height: 62px;
+
+    border: 1px solid var(--accent-text-color);
+    border-radius: 4px;
+}
+
+.comm h3 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+    color: var(--accent-text-color);
+}

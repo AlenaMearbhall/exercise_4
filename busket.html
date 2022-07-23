@@ -4,77 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <h1>Корзина</h1>
-    <!-- Busket -->
-    <section class="busket-section">
-        <div class="alert-message">
-            <img src="./img/alert-triangle 1.svg" alt="значок тревоги" width="16">
-            <p>Извините, но указанное ранее количество товара недоступно. Установлено ближайшее доступное значение.</p>
-        </div>
+    <h1 class="busket-title">Корзина</h1>
 
-        <ul class="product-list">
-            <li class="item">
-                <img src="./img/1m-(6) 1.png" alt="миниатюра товара" width="120">
-                <div class="info">
-                    <p class="gost-small current">ГОСТ 14911-82</p>
-                    <h3 class="description">Опора тавровая хомутовая ТХ</h3>
-                    <p class="price">849.9 руб.</p>
-                </div>
-                <ul class="product-counter">
-                    <li><a href="#" class="item plus">+</a></li>
-                    <li><a href="#" class="item number">3</a></li>
-                    <li><a href="#" class="item minus">-</a></li>
-                </ul>
-                <p class="price-sum">2 549.7 руб.</p>
+    <div class="busket container">
+        <!-- Busket -->
+        <section class="busket-section-row">
+            
+            <div class="alert-message">
+                <img src="./img/alert-triangle 1.svg" alt="значок тревоги" width="16">
+                <p>Извините, но указанное ранее количество товара недоступно. Установлено ближайшее доступное значение.</p>
+            </div>
+
+            <ul class="product-list">
+                <li class="item">
+                    <img src="./img/1m-(6) 1.png" alt="миниатюра товара" width="120">
+                    <div class="info">
+                        <p class="gost-small current">ГОСТ 14911-82</p>
+                        <h3 class="description">Опора подвижная ОПБ2</h3>
+                        <p class="price">849.9 руб.</p>
+                    </div>
+                    <ul class="product-counter">
+                        <li><a href="#" class="item plus">+</a></li>
+                        <li><a href="#" class="item number">3</a></li>
+                        <li><a href="#" class="item minus">-</a></li>
+                    </ul>
+                    <p class="price-sum">2 549.7 руб.</p>
+                    <img src="./img/trash 1.svg" alt="значок корзины" width="18" class="busket-pict">
+                </li>
+            </ul>
+            <div class="clear-busket">
                 <img src="./img/trash 1.svg" alt="значок корзины" width="18">
-            </li>
-        </ul>
-        <div class="clear-busket">
-            <img src="./img/trash 1.svg" alt="значок корзины" width="18">
-            <p>Очистить корзину</p>
+                <p>Очистить корзину</p>
+            </div>
+        </section>
+
+        <!-- Order -->
+        <section class="order-section-row">
+            <h2>Заказ</h2>
+            <h3>Контактная информация</h3>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <label for="username">ФИО</label>
+                <img src="./img/user 1.svg" alt="значок юзера" width="14">
+                <input type="text" name="username" placeholder="Иванов Иван Иванович" class="form-input current">
+
+                <img src="./img/phone 2.svg" alt="значок телефонв" width="14">
+                <input type="tel" name="phonenumber" placeholder="Контактный телефон" class="form-input">
+
+                <img src="./img/at-sign 1.svg" alt="значок имейла" width="14">
+                <input type="tel" name="email" placeholder="Email" class="form-input">
+
+                <img src="./img/briefcase 1.svg" alt="значок чемодана" width="14">
+                <input type="tel" name="org" placeholder="Организация / ИНН" class="form-input">
+            </form>
+
+            <ul class="total">
+                <li class="item">Итого</li>
+                <li class="item sum">8 499 руб.</li>
+            </ul>
+
+            <button type="submit" class="order-btn">
+                <img src="./img/shopping.svg" alt="значок корзины" width="18">
+                Оформить заказ
+            </button>
+
+            <div class="comm">
+                <a href="#" target="_top" class="logo link">
+                    <img src="./img/main/file-text 2.svg" alt="иконка для закачки" width="24">
+                    <img src="./img/main/download 1.svg" alt="иконка для закачки" width="9">
+                </a>
+                <h3>Коммерческое предложение</h3>
+            </div>
         </div>
-    </section>
-
-    <!-- Order -->
-    <section class="order-section">
-        <h2>Заказ</h2>
-        <h3>Контактная информация</h3>
-        <form action="#" method="post" enctype="multipart/form-data">
-            <label for="username">ФИО</label>
-            <img src="./img/user 1.svg" alt="значок юзера" width="14">
-            <input type="text" name="username" placeholder="Иванов Иван Иванович" class="form-input">
-
-            <img src="./img/phone 2.svg" alt="значок телефонв" width="14">
-            <input type="tel" name="phonenumber" placeholder="Контактный телефон" class="form-input">
-
-            <img src="./img/at-sign 1.svg" alt="значок имейла" width="14">
-            <input type="tel" name="email" placeholder="Email" class="form-input">
-
-            <img src="./img/briefcase 1.svg" alt="значок чемодана" width="14">
-            <input type="tel" name="org" placeholder="Организация / ИНН" class="form-input">
-        </form>
-
-        <ul class="total">
-            <li class="item">Итого</li>
-            <li class="item sum">8 499 руб.</li>
-        </ul>
-
-        <button type="submit" class="order-btn">
-            <img src="./img/shopping.svg" alt="значок корзины" width="18">
-            Оформить заказ
-        </button>
-
-        <div class="comm">
-            <a href="#" target="_top" class="logo link">
-                <img src="./img/main/file-text 2.svg" alt="иконка для закачки" width="24">
-                <img src="./img/main/download 1.svg" alt="иконка для закачки" width="9">
-            </a>
-            <h3 class="item">Коммерческое предложение</h3>
-        </div>
-
     </section>
 </body>
 </html>
